@@ -1,9 +1,11 @@
 public class Transporte {
+
     private Integer id;
     private Integer ano;
     private String modelo;
     private Double cargaMaxima;
     private Double potencia;
+
     public Integer getId() {
         return id;
     }
@@ -33,10 +35,5 @@ public class Transporte {
     }
     public void setPotencia(Double potencia) {
         this.potencia = potencia;
-    }
-
-    
-    
-
-    
+    }   
 }
