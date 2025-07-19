@@ -7,10 +7,14 @@ public class App {
 
         System.out.println("Digite seu nome:");
         String nome = sc.nextLine();
+        System.out.println("Digite sua idade:");
+        String idade = sc.nextInt();
+
 
         sc.close();
 
         System.out.println("Olá, " + nome + "!");
+        System.out.println("Sua idade é" + idade);
     }
     
 }
