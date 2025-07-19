@@ -9,7 +9,7 @@ public class Funcionario {
     private char sexo;
     private double salario;
     private int telefone;
-    
+
     public String getMatricula() {
         return matricula;
     }
@@ -52,8 +52,5 @@ public class Funcionario {
     public void setTelefone(int telefone) {
         this.telefone = telefone;
     }
-
-    
-
 
 }
