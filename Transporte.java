@@ -4,6 +4,38 @@ public class Transporte {
     private String modelo;
     private Double cargaMaxima;
     private Double potencia;
+    public Integer getId() {
+        return id;
+    }
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    public Integer getAno() {
+        return ano;
+    }
+    public void setAno(Integer ano) {
+        this.ano = ano;
+    }
+    public String getModelo() {
+        return modelo;
+    }
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+    public Double getCargaMaxima() {
+        return cargaMaxima;
+    }
+    public void setCargaMaxima(Double cargaMaxima) {
+        this.cargaMaxima = cargaMaxima;
+    }
+    public Double getPotencia() {
+        return potencia;
+    }
+    public void setPotencia(Double potencia) {
+        this.potencia = potencia;
+    }
+
+    
     
 
     
